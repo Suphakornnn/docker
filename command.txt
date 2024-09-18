@@ -1,0 +1,20 @@
+docker ps
+docker ps --all
+docker run busybox ping google.com
+docker stop
+docker rm
+docker system prun
+docker run nginx
+docker exec -it c3cb83441513 bash
+docker run -p 80:80 nginx
+docker run -p 9000:80 nginx
+http://localhost:9000/
+docker -d -p 3000:80 nginx
+docker run --name mynginx -d -p 3000:80 nginx
+docker logs 75e159b490ae1a49327d0bce2984abe2724bea3855ae70cd4060c7c8167dda5d
+docker logs -f 75e159b490ae1a49327d0bce2984abe2724bea3855ae70cd4060c7c8167dda5d
+docker system info
+docker system df
+docker images 
+docker image inspect nginx 
+docker image rm hello-world 
